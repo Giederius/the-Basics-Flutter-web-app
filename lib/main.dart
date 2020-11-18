@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:the_basics/locator.dart';
 import 'package:the_basics/views/home/home_view.dart';
+import 'package:the_basics/views/home/layout_template/layout_template.dart';
 
 void main() {
   setupLocator();
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         //pakeicia teksto family i open sans.
         textTheme: Theme.of(context).textTheme.apply(fontFamily: 'Open Sans'),
       ),
-      home: HomeView(),
+      home: LayoutTemplate(),
     );
   }
 }
