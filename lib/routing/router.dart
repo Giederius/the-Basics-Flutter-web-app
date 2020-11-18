@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:the_basics/routing/route_names.dart';
+import 'package:the_basics/views/about/about_view.dart';
+import 'package:the_basics/views/episodes/episodes_view.dart';
 import 'package:the_basics/views/home/home_view.dart';
 
 Route<dynamic> generateRoute(RouteSettings settings) {
