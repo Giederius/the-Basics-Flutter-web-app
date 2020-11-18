@@ -22,7 +22,7 @@ class LayoutTemplate extends StatelessWidget {
               Expanded(
                 child: Navigator(
                   key: locator<NavigationService>().navigatorKey,
-                  onGenerateRoute: m  m,
+                  onGenerateRoute:,
                 ),
               )
             ],
